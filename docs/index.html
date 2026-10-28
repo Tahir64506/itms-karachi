@@ -2,6 +2,12 @@
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>ITMS Karachi — Intelligent Traffic Management System</title>
+<meta name="description" content="AI traffic-signal control for a Karachi intersection: YOLOv8 detection, LSTM forecasting and a Double-DQN controller, with a live 3D traffic simulation. Cuts average wait by 19% vs the best fixed-time plan.">
+<meta name="theme-color" content="#0e7c86">
+<meta property="og:type" content="website"><meta property="og:title" content="ITMS Karachi — Intelligent Traffic Management System">
+<meta property="og:description" content="AI traffic-signal control for a Karachi intersection: YOLOv8 detection, LSTM forecasting and a Double-DQN controller, with a live 3D traffic simulation. Cuts average wait by 19% vs the best fixed-time plan."><meta property="og:url" content="https://tahir64506.github.io/itms-karachi/"><meta property="og:image" content="https://raw.githubusercontent.com/Tahir64506/itms-karachi/main/results/final_results_dashboard.png">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://raw.githubusercontent.com/Tahir64506/itms-karachi/main/results/final_results_dashboard.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🚦%3C/text%3E%3C/svg%3E">
 <style>
 :root{--bg:#f4f6f9;--card:#fff;--tx:#14202e;--mu:#5b6b7d;--ac:#0e7c86;--ac2:#e8590c;--bd:#dde3ea;--ok:#1b9e5a;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 @media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d141c;--card:#152130;--tx:#e8eef5;--mu:#93a4b8;--ac:#35c4d0;--ac2:#ff8a4c;--bd:#24364a;--ok:#4ade80}}
@@ -32,7 +38,7 @@ table{width:100%;border-collapse:collapse;font-size:14px}th,td{text-align:left;p
 .tb{overflow-x:auto}ul{padding-left:20px;margin:6px 0}li{margin:4px 0}.pill{display:inline-block;font-size:12px;padding:2px 9px;border-radius:99px;background:var(--bg);border:1px solid var(--bd);color:var(--mu);margin:2px 2px 0 0}
 footer{padding:36px 0;color:var(--mu);font-size:14px;text-align:center}
 </style></head><body>
-<nav><div class="w"><b>🚦 ITMS Karachi</b><a href="#sim">Live demo</a><a href="#how">How it works</a><a href="#res">Results</a><a href="#models">Models</a><a href="#notes">Limitations</a></div></nav>
+<nav><div class="w"><b>🚦 ITMS Karachi</b><a href="#sim">Live demo</a><a href="#how">How it works</a><a href="#res">Results</a><a href="#models">Models</a><a href="#notes">Limitations</a><a href="https://github.com/Tahir64506/itms-karachi" target="_blank" rel="noopener">GitHub ↗</a></div></nav>
 <div class="w">
 <header><div class="k">Iqra University · BS Computer Science · AI Project</div>
 <h1>Intelligent Traffic Management System for Karachi</h1>
@@ -71,7 +77,7 @@ footer{padding:36px 0;color:var(--mu);font-size:14px;text-align:center}
 
 <section id="notes"><div class="k">Honest notes</div><h2>Limitations</h2>
 <div class="card"><ul><li>Results come from a simulated environment with synthetic data, not live Karachi sensors.</li><li>The YOLOv8 demo uses a synthetic image; real vehicle counts need real road footage.</li><li>The simulated intersection uses two-phase signals with straight and left-turn movements and pedestrian crossings; right turns, multi-lane roads and pedestrian-aware signal timing are future work.</li></ul></div></section>
-</div><footer>ITMS Karachi · Iqra University · AI Project</footer>
+</div><footer>ITMS Karachi · Iqra University · AI Project · <a href="https://github.com/Tahir64506/itms-karachi" target="_blank" rel="noopener" style="color:var(--ac)">Source code on GitHub</a></footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script>
