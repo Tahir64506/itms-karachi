@@ -1,0 +1,22 @@
+{
+  "best_fixed": "Fixed 30s",
+  "itms": {
+    "reward": -156.281,
+    "wait_s": 101.723,
+    "veh_per_hr": 1208.816,
+    "avg_queue": 37.909
+  },
+  "best_fixed_metrics": {
+    "reward": -451.404,
+    "wait_s": 125.548,
+    "veh_per_hr": 1194.037,
+    "avg_queue": 45.693
+  },
+  "fixed_60s": {
+    "reward": -1101.48,
+    "wait_s": 181.421,
+    "veh_per_hr": 1183.398,
+    "avg_queue": 63.066
+  },
+  "n_eval_scenarios": 30
+}

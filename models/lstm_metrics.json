@@ -1,0 +1,7 @@
+{
+  "mae_vehicles": 7.66,
+  "rmse_vehicles": 9.673,
+  "r2": 0.8631,
+  "mae_normalised": 0.3375,
+  "rmse_normalised": 0.4261
+}

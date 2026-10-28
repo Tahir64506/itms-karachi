@@ -1,0 +1,6 @@
+{
+  "episodes_completed": 400,
+  "best_episode": 50,
+  "best_validation_reward": 112.24,
+  "final_epsilon": 0.012
+}
